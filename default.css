@@ -1,0 +1,39 @@
+header {
+background-image: url(marble.png);
+height: 100px;
+text-align: center;
+line-height: 100px;
+font-size: 45px;
+color: rgb(240, 17, 55);
+text-shadow: -1px 1px 0 rgb(104, 0, 0);
+border-radius: 10px;
+border-style: ridge;
+border-color: rgb(146, 14, 53)
+
+}
+
+article{
+    margin-left: 300px;
+    
+
+}
+
+footer{
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    border-style:ridge;
+    border-color:rgb(129, 25, 17);
+    text-align: center;
+    align-content: center;
+}
+
+#navigation{
+    float: left;
+    background: rgb(252, 192, 252);
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(77, 0, 77);
+    margin-top: 30px;
+    
+
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width", initial-scale> 
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <title>Background</title>
+</head>
+    <header>
+        The HTML/CSS Reference Page
+    </header>
+
+    <div id="navigation">
+        <ul>
+            <li> <a href="Paragraph.html">Paragraph</a> </li>
+            <li> <a href="Header.html">Header</a></li>
+            <li> <a href="Body.html">Body</a></li>
+            <li> <a href="Title.html">Title</a></li>
+            <li> <a href="Images.html">Images</a></li>
+            <li> <a href="Videos.html">Videos</a></li>
+            <li> <a href="Unorderedlist.html">Unordered List</a></li>
+            <li> <a href="Orderedlist.html">Ordered List</a></li>
+            <li> <a href="div.html">Div</a></li>
+            <li> <a href="background.html">backgroud</a></li>
+            <li> <a href="border.html">border</a></li>
+            <li> <a href="clear.html">clear</a></li>
+            <li> <a href="color.html">color</a></li>
+            <li> <a href="display.html">display</a></li>
+            <li> <a href="float.html">float</a></li>
+            <li> <a href="font.html">font</a></li>
+            <li> <a href="height.html">height</a></li>
+            <li> <a href="letter-spacing.html">letter spacing</a></li>
+            <li> <a href="line-height.html">line height</a></li>
+            <li> <a href="list-style.html">list style</a></li>
+            <li> <a href="margin.html">margin</a></li>
+            <li> <a href="opacity.html">opacity</a></li>
+            <li> <a href="overflow.html">overflow</a></li>
+            <li> <a href="padding.html">padding</a></li>
+            <li> <a href="text-align.html">text align</a></li>
+            <li> <a href="text-decoration.html">text decoration</a></li>
+            <li> <a href="text-indent.html">text indent</a></li>
+            <li> <a href="text-transform.html">text transform</a></li>
+            <li> <a href="width.html">width</a></li>
+        </ul>
+
+        
+        
+    </div>
+<article>
+            <h1>
+                Backround
+            </h1>
+
+            <p>
+                This is a shorthand property and sets all the background properties in one declaration.
+            </p>
+
+            <p> Possible Values:</p>
+
+            <ul>
+                <li>attactchment</li>
+                <li>color</li>
+                <li>image</li>
+                <li>repeat</li>
+                <li>position</li>
+            </ul>
+
+            <h2> Background-attatchment</h2>
+
+            <p> The <code>background-attatchment</code> property specifies whether a background image is fixed with regard to the viewport or scrolls along the containing block.</p>
+            
+            <p>Possible Values:</p>
+                <ul>
+                    <li>Scroll (default) - The background iage will scroll with th erest of the content.</li>
+                    <li>Fixed - The backgroud image will remain statoinary as the rest of the content is scrolled.</li>
+                </ul>
+
+                <p><code>
+                        background-image: url("img_tree.png");
+                    <p>    backgroud-repeat: no-repeat;</p>
+                    <p>backgroud-attatchment: fixed;</p>
+
+                
+
+                </code></p>
+
+            <h2>
+                Backgroud-color
+            </h2>
+            <p>Sets the background color of an element.</p>
+            <p>Possible Values:</p>
+            <ul>
+                <li>transparent (default)</li>
+                <li>color (colorname, HEX Value, etc.)</li>
+            </ul>
+
+            <p><code>
+                Backgroud-color: pink;
+            </code></p>
+
+            <h2> Background-image</h2>
+            <p>background-image property sets the backgroud image of an element.</p>
+            <p>Possible Values:</p>
+            <ul>
+                <li>none (default)</li>
+                <li>url</li>
+            </ul>
+            <p><code>
+                    body {
+                background-image: url("iamge.png");}
+            </code></p>
+
+            <h2>backgroud-position</h2>
+            <p>Specifies the initial position of a baackground image.</p>
+            <p>Possible Values:</p>
+            <ul>
+                <li>top</li>
+                <li>right</li>
+                <li>bottom</li>
+                <li>left</li>
+                <li>combination</li>
+                <li>center</li>
+                <li>percentage</li>
+                <li>lenghts</li>
+            </ul>
+
+            <p><code>body{
+                background-position: top;
+                background-position: bottom;}
+            </code></p>
+
+            <h2>Backgroud-repeat</h2>
+            <p>Specifies hwo a background iamge will repeat itself within an element.</p>
+            <p>Possible Values:</p>
+                <ul>
+                    <li>repeat default - tilted, repeating the image both horizontally and vertically</li>
+                    <li>repeat-x repeats the image horizonally only.</li>
+                    <li>repeat-y repeats the image vertically</li>
+                    <li>no-repeat - does not repeat the image</li>
+                </ul>
+
+                <p><code>body{
+                    background-image: url("gradient_bg");
+                <p> background-repeat: repeat-x, }</p>
+                </code></p>
+        </article>
+        <footer>
+            &copy; HTML Class of '25
+        </footer>
+</html>
